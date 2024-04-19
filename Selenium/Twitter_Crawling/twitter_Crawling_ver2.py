@@ -23,9 +23,6 @@ print(type(name.text))
 
 te = name.text
 
-#te = name.find_element(by='data-testid', 'tweetText')
-#print(te)
-
 url2 = 'https://papago.naver.com/?sk=auto&tk=ko'
 driver.get(url2)
 time.sleep(3)
